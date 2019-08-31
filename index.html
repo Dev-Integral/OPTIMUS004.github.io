@@ -17,7 +17,7 @@ header {
 
 
 .container{
-  //width: 1170px;
+  
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -43,6 +43,7 @@ ul a{
     text-decoration: none;
     color: white;
     margin-right: 20px;
+    margin-top: 15px;
     font-size: 20px;
 }
 ul a:hover{
@@ -60,18 +61,18 @@ ul a:hover{
     margin-left: 15px
 }
 .container{
-    background-image:url('https://res.cloudinary.com/iinintinteintegintegrintegral/image/upload/v1567230590/My%20web/adrianna-van-groningen-mfnro6ulnmg-unsplash_womwns.jpg ');
+    background-image: url('./images/adrianna-van-groningen-mfnro6ulnmg-unsplash.jpg');
     background-size: cover;
-    border:0, 15px;
+    
 }
 .container-one{
-    background-color: white;
+    background-color:
     opacity:0.7;
     padding-top:70px;
     width:45%;
     height:600px;
     text-align: center;
-    :2px;
+    color: white;
 }
 
 .container-one h1{
@@ -113,6 +114,30 @@ ul a:hover{
     background-color: purple;
     color: white;
 }
+
+@media screen and (max-width: 800px){
+
+    ul a{
+    
+    font-size: 12px;
+    margin-right: 10px;
+}
+    header{
+        width:100%;
+    
+        line-height: 65px; 
+    }
+    .container{
+        background-size:500px 500px;
+        background-repeat: none;
+    }
+    .container-one{
+        height: 350px;
+    }
+    h1{
+        font-size: 12px;
+    }
+}
 </style>
 
 </head>
@@ -120,13 +145,13 @@ ul a:hover{
     <header>
         <div class="container">
       <div class="header-left">
-        <a href="#"><img class="logo" src="https://res.cloudinary.com/iinintinteintegintegrintegral/image/upload/v1567230601/My%20web/ancora_udeujy.png"><a>
+        <a href="#"><img class="logo" src="./images/ancora-logo.png"><a>
       </div>
       <div class="header-right">
         <div class="links-to-pages">
             <ul>
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Donate</a></li>
+                <li><a href="https://rave.flutterwave.com/pay/ancorazhmb">Donate</a></li>
                 <li><a href="#">Partners</a></li>
                 <li><a href="#">Contact Us<a></li>
             </ul>
@@ -144,7 +169,7 @@ ul a:hover{
 			</div>
 		</div>
         <div class="btn-container">
-            <a class="btn-pay" href="#">Make A Donation</a>
+            <a class="btn-pay" href="https://rave.flutterwave.com/pay/ancorazhmb">DONATE</a>
         </div>
 	</main>
 	<footer></footer>
